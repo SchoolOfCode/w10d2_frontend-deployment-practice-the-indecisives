@@ -1,5 +1,7 @@
 # Todo List Frontend For Practicing Deployment
 
-When deploying the front end:
-  - Make sure you set the `REACT_APP_BACKEND_URL` environment variable (because at build time, the build process will take the values available and inject/hard code them into the generated files). 
-  - Have a look at the typical build settings (for a typical project folder structure): https://docs.netlify.com/configure-builds/common-configurations/#create-react-app
+✅ npm run build command is something netlify does for you normally.
+✅ Make sure you set the `REACT_APP_BACKEND_URL` environment variable 
+(when it is react app, you have to name it as REACT_APP_)
+✅ When you are not deploying it yet, you can add it as .env file but if you are deploying it, you have to get the backend URL and add it to netlify setting as a environment variable.
+✅ Make sure your repo is updated. 
